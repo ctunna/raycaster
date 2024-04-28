@@ -1,0 +1,12 @@
+Checks: >
+  -*,
+  google-*,
+  performance-*,
+  modernize-*,
+  readability-*,
+  -google-runtime-int,
+  -google-upgrade-googletest-case,
+  -readability-magic-numbers,
+FormatStyle: file
+HeaderFilterRegex: '(/ctjs/)'
+WarningsAsErrors: '*'
